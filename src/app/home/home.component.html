@@ -1,0 +1,34 @@
+<main>
+  <div class="cy-content">
+    <div class="cy-avatar">
+      <img [ngClass]="{ 'blur': blur }" src="../../assets/avatar.jpeg">
+      <div class="cy-question" [ngStyle]="{ 'display': blur ? 'flex' : 'none' }" (click)="removeBlur()">
+        <p>?</p>
+      </div>
+    </div>
+
+    <div class="cy-content">
+      <h2>🙋‍♂️ Hey you, I'm Reto, a developer and computer science student from Düsseldorf.</h2>
+
+      <div class="cy-summary">
+        <p>👨‍💻 web developer (JavaScript, NodeJS, php, Angular, VueJS, HTML5, CSS3)</p>
+        <p>👨‍🎓 computer science student</p>
+      </div>
+
+      <div class="cy-working">
+        <a class="cy-cgi" href="https://cgi.com" target="_blank">CGI</a>
+        ·
+        <a href="https://teamnetwork.net" target="_blank">TeamNetwork (freelancer)</a>
+      </div>
+
+      <div class="cy-social">
+        <a href="mailto:reto@cxyy.dev"><i class="fas fa-envelope"></i></a>
+        <a href="https://instagram.com/its.cxyy" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/ItsCxyy" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://snapchat.com/add/proqhecy" target="_blank"><i class="fab fa-snapchat-ghost"></i></a>
+        <a href="https://github.com/ItsCxyy" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/reto-st%C3%B6cker-otsuka-b23076191/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</main>

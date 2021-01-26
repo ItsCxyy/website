@@ -1,0 +1,85 @@
+.cy-content {
+  display: block;
+  max-width: 700px;
+  text-align: center;
+}
+
+.cy-avatar {
+  height: 100px;
+  margin: 0 auto 40px auto;
+  position: relative;
+  width: 100px;
+}
+
+.cy-avatar img {
+  height: 100px;
+  width: 100px;
+}
+
+.cy-avatar img.blur {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.cy-question {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
+.cy-question p {
+  color: #fff;
+  font-size: 50px;
+}
+
+.cy-summary,
+.cy-working {
+  margin-top: 30px;
+}
+
+.cy-summary > p:not(:last-of-type) {
+  margin-bottom: 6px;
+}
+
+.cy-cgi {
+  color: #cc0033;
+  font-family: "Arial";
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cy-cgi:hover {
+  background: #cc0033;
+  color: var(--fg-color-invert);
+}
+
+.cy-social {
+  margin-top: 46px;
+}
+
+.cy-social a {
+  align-items: center;
+  background: var(--bg-color);
+  color: var(--fg-color);
+  display: inline-flex;
+  font-size: 20px;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
+
+.cy-social a:hover {
+  background: var(--bg-color-invert);
+  color: var(--fg-color-invert);
+}
+
+.cy-social a:not(:last-of-type) {
+  margin-right: 10px;
+}

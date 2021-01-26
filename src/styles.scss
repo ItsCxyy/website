@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Libre+Barcode+128+Text&display=swap");
+
+[data-theme="light"] {
+  --bg-color: #fff;
+  --fg-color: #000;
+  --bg-color-invert: #000;
+  --fg-color-invert: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #000;
+  --fg-color: #fff;
+  --bg-color-invert: #fff;
+  --fg-color-invert: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+img,
+button {
+  user-select: none;
+}
+
+html {
+  font-family: "Fira Code", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.33333333;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--fg-color);
+}
+
+a {
+  color: var(--fg-color);
+  padding: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: var(--bg-color-invert);
+  color: var(--fg-color-invert);
+  text-decoration: underline;
+}
+
+button {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 20px;
+}

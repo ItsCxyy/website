@@ -1,0 +1,47 @@
+nav {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+a {
+  font-size: 20px;
+}
+
+div {
+  display: inherit;
+}
+
+button {
+  align-items: center;
+  background: var(--bg-color);
+  color: var(--fg-color);
+  display: flex;
+  font-size: 18px;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+button:hover {
+  background: var(--bg-color-invert);
+  color: var(--fg-color-invert);
+}
+
+.cy-barcode {
+  font-family: "Libre Barcode 128 Text";
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 920px) {
+  nav {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,8 @@
+<nav>
+  <a routerLink="/">Cxyy</a>
+  <div>
+    <a class="cy-barcode" routerLink="/share">Share</a>
+    <button (click)="setTheme()" [ngStyle]="{ 'display': !dark ? 'inherit' : 'none' }"><i class="fas fa-sun"></i></button>
+    <button (click)="setTheme()" [ngStyle]="{ 'display': dark ? 'inherit' : 'none' }"><i class="fas fa-moon"></i></button>
+  </div>
+</nav>

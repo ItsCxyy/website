@@ -1,0 +1,18 @@
+main {
+  color: var(--fg-color);
+  font-size: 60px;
+}
+
+.cy-qr-code {
+  display: block;
+  text-align: center;
+}
+
+.cy-qr-code img {
+  height: 160px;
+  width: 160px;
+}
+
+.cy-qr-code p {
+  font-size: 12px;
+}
